@@ -15,7 +15,7 @@ namespace CSExercises
 
             double fare1 = 2.4 + (0.4 * fare);
 
-            System.Console.WriteLine("The fare for the distance travelled is {0:#.0}", fare1);
+            System.Console.WriteLine("The fare for the distance travelled is {0:###}", System.Math.Ceiling(fare1));
  
         }
     }
